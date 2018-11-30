@@ -1,0 +1,61 @@
+[{
+   "question": "问题一：以下哪些不是第二次世界大战的轴心国?",
+   "answers": [{
+    "correct": true,
+    "answerStr": "1.  法国"
+   }, {
+    "correct": false,
+    "answerStr": "2.  德国"
+   }, {
+    "correct": false,
+    "answerStr": "3.  意大利"
+   }]
+  }, {
+   "question": "问题二：以下哪一个是第一次世界大战的协约国?",
+   "answers": [{
+    "correct": true,
+    "answerStr": "1.  英国"
+   }, {
+    "correct": false,
+    "answerStr": "2.  德国"
+   }, {
+    "correct": false,
+    "answerStr": "3.  奥地利"
+   }]
+  }, {
+   "question": "问题三：纳粹德国第一个入侵的国家是以下哪个国家？",
+   "answers": [{
+    "correct": true,
+    "answerStr": "1.  波兰"
+   }, {
+    "correct": false,
+    "answerStr": "2.  法国"
+   }, {
+    "correct": false,
+    "answerStr": "3.  比利时"
+   }]
+  }, {
+   "question": "问题四：历史上，中东战争一共有几次？",
+   "answers": [{
+    "correct": false,
+    "answerStr": "1.三次"
+   }, {
+    "correct": false,
+    "answerStr": "2.四次"
+   }, {
+    "correct": true,
+    "answerStr": "3.五次"
+   }]
+  }, {
+   "question": "问题五：以下哪个型号坦克不属于中国人民解放军陆军？",
+   "answers": [{
+    "correct": false,
+    "answerStr": "1. 88式"
+   }, {
+    "correct": true,
+    "answerStr": "2. 90式"
+   }, {
+    "correct": false,
+    "answerStr": "3. 99式"
+   }]
+}]

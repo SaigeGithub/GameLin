@@ -1,0 +1,87 @@
+[
+{
+"question": "以下哪一个不是编程语言？",
+"answers": [
+{
+"correct": false,
+"answer": "1.C++"
+},
+{
+"correct": false,
+"answer": "2.C+"
+},
+{
+"correct": true,
+"answer": "3.Python"
+}
+]
+},
+{
+"question": "以下哪一个是编程语言？",
+"answers": [
+{
+"correct": false,
+"answer": "1.Linux"
+},
+{
+"correct": false,
+"answer": "2.Ruby"
+},
+{
+"correct": true,
+"answer": "3.MacOS"
+}
+]
+},
+{
+"question": "如何用Java写出Hello World？",
+"answers": [
+{
+"correct": false,
+"answer": "ggg"
+},
+{
+"correct": false,
+"answer": "2.Ruby"
+},
+{
+"correct": true,
+"answer": "3.MacOS"
+}
+]
+},
+{
+"question": "以下哪一项不是网页开发使用的语言",
+"answers": [
+{
+"correct": false,
+"answer": "1.Swift"
+},
+{
+"correct": false,
+"answer": "2.HTML"
+},
+{
+"correct": true,
+"answer": "3.PHP"
+}
+]
+},
+{
+"question": "以下C语言程序的输出是什么？",
+"answers": [
+{
+"correct": false,
+"answer": "1.30 40 50 60"
+},
+{
+"correct": false,
+"answer": "2.30"
+},
+{
+"correct": true,
+"answer": "3.30 20 10 0"
+}
+]
+}
+]

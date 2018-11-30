@@ -1,0 +1,61 @@
+[{
+   "question": "问题一：西斯廷教堂中的《创造亚当》是以下哪位艺术家的作品？",
+   "answers": [{
+    "correct": false,
+    "answerStr": "1. 达芬奇"
+   }, {
+    "correct": true,
+    "answerStr": "2. 米开朗琪罗"
+   }, {
+    "correct": false,
+    "answerStr": "3. 拉斐尔"
+   }]
+  }, {
+   "question": "问题二：以下哪位艺术家不是立体派?",
+   "answers": [{
+    "correct": false,
+    "answerStr": "1. 毕加索"
+   }, {
+    "correct": false,
+    "answerStr": "2. 塞尚"
+   }, {
+    "correct": true,
+    "answerStr": "3. 杜尚"
+   }]
+  }, {
+   "question": "问题三：以下哪一个不是文森特·梵高的作品？",
+   "answers": [{
+    "correct": false,
+    "answerStr": "1.   《星空》"
+   }, {
+    "correct": true,
+    "answerStr": "2.  《睡莲》"
+   }, {
+    "correct": false,
+    "answerStr": "3.《鸢尾花》"
+   }]
+  }, {
+   "question": "问题四：克劳德·莫奈是属于什么画派的艺术家？",
+   "answers": [{
+    "correct": false,
+    "answerStr": "1. 抽象表现主义"
+   }, {
+    "correct": true,
+    "answerStr": "2. 印象画派"
+   }, {
+    "correct": false,
+    "answerStr": "3. 弗洛伦萨画派"
+   }]
+  }, {
+   "question": "问题五：以下哪位是街头涂鸦艺术家？",
+   "answers": [{
+    "correct": false,
+    "answerStr": "1. 安迪沃霍尔"
+   }, {
+    "correct": true,
+    "answerStr": "2. 班克斯"
+   }, {
+    "correct": false,
+    "answerStr": "3.  杰克逊波洛克"
+   }]
+}]

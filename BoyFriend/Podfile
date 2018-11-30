@@ -1,0 +1,17 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '10.0'
+
+target 'BoyFriend' do
+
+ 	use_frameworks!
+
+    pod 'MBProgressHUD+Add', '~> 0.0.2'
+	pod 'Google-Mobile-Ads-SDK'
+#    pod 'LeanCloud'
+    pod 'SKPhotoBrowser', '~> 5.1.0'
+    pod 'Gifu'
+
+    pod 'HandyJSON', '~> 4.2.0'
+    
+    
+end

@@ -1,0 +1,43 @@
+/* 
+  local.strings
+  BoyFriend
+
+  Created by 谢冠章 on 2018/10/21.
+  Copyright © 2018年 谢馆长. All rights reserved.
+*/
+// Localizable App Name是App在英语环境环境下显示的名称
+CFBundleDisplayName = "LinMao Your Boyfriend";
+
+"音量"="Volume";
+"开启推送"="Notification";
+"官方微博"="Weibo";
+"系统消息"="System message";
+"取消"="Cancel";
+"切换剧本语言后游戏进度将会重置"="Game progress will be reset!";
+"选择语言"="Select language";
+"英语"="English";
+"简体中文"="Simplified chinese";
+"关于我们"="About us";
+"开始新游戏"="New game";
+"你有游戏正在进行中,重新开始将会覆盖原有游戏记录,是否开始新游戏"="You have a game in progress, and the restart will cover the old game record, whether to start a new game";
+"继续游戏"="Continue";
+"重新开始"="Restart";
+
+"游戏结束"="Game Over";
+"是否重新开始"="Try again?";
+"确定"="OK";
+
+"观看广告就可以立马跳到下一章，是否观看广告？"="Whether to watch ads or not?";
+"加快进度"="To speed up the progress";
+"看广告，林昴会回复更快哟。是否观看广告？"="Whether to watch ads or not?";
+"观看了广告,五分钟内回复加速" = "After watching the AD, the response was accelerated in five minutes";
+"跳过章节等待，本段结束才可使用" = "Skip the section and wait until the end of the section";
+"广告还没准备好" = "The ads are not ready";
+
+"刚刚"="now";
+"分钟前"="minutes ago";
+"小时前"="hours ago";
+"请选择一个答案"="Please choose an answer";
+"完成"="Finished";
+"答对了"="With ";
+"题,林昴对你的好感度增加了"=" correct answer, Lin's liking for you has increased";

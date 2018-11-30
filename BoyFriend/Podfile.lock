@@ -1,0 +1,36 @@
+PODS:
+  - Gifu (3.1.0)
+  - Google-Mobile-Ads-SDK (7.32.0)
+  - HandyJSON (4.2.1)
+  - MBProgressHUD (1.0.0)
+  - "MBProgressHUD+Add (0.0.2)":
+    - MBProgressHUD (~> 1.0.0)
+  - SKPhotoBrowser (5.1.0)
+
+DEPENDENCIES:
+  - Gifu
+  - Google-Mobile-Ads-SDK
+  - HandyJSON (~> 4.2.0)
+  - "MBProgressHUD+Add (~> 0.0.2)"
+  - SKPhotoBrowser (~> 5.1.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Gifu
+    - Google-Mobile-Ads-SDK
+    - HandyJSON
+    - MBProgressHUD
+    - "MBProgressHUD+Add"
+    - SKPhotoBrowser
+
+SPEC CHECKSUMS:
+  Gifu: fd1e9e3a15ac5d90bae0a510e4ed9f94b485ab03
+  Google-Mobile-Ads-SDK: 2aca87e46e860f1e1fc0fdc1201dd9caa4be9ba6
+  HandyJSON: d0c5fc80204f29056d59d3e5c4587fa0b16b60a8
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  "MBProgressHUD+Add": 65c4d170c083a2a800ad4470d424ad5978f324c3
+  SKPhotoBrowser: c20c1da34d737b4e3e101feead6c8dd92ebf860a
+
+PODFILE CHECKSUM: 3458afbe109ea770037763a4c17f71eec190d448
+
+COCOAPODS: 1.5.3

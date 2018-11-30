@@ -1,0 +1,132 @@
+
+/* Class = "UILabel"; text = "What do you want to do with LinMao"; ObjectID = "01k-bX-DDY"; */
+"01k-bX-DDY.text" = "What do you want to do with LinMao";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "2zF-9q-UUh"; */
+"2zF-9q-UUh.text" = "Label";
+
+/* Class = "UILabel"; text = "For more, check out the official weibo account"; ObjectID = "9hg-qg-Mkg"; */
+"9hg-qg-Mkg.text" = "For more, check out the official weibo account";
+
+/* Class = "UILabel"; text = "LinMao YourBoyfriend"; ObjectID = "AvD-By-xaH"; */
+"AvD-By-xaH.text" = "LinMao YourBoyfriend";
+
+/* Class = "UITextField"; text = "Reply message..."; ObjectID = "B4j-Q8-awE"; */
+"B4j-Q8-awE.text" = "Reply message...";
+
+/* Class = "UIButton"; normalTitle = "Continue"; ObjectID = "B5l-YC-jsP"; */
+"B5l-YC-jsP.normalTitle" = "Continue";
+
+/* Class = "UILabel"; text = "+0"; ObjectID = "BZZ-NG-9zX"; */
+"BZZ-NG-9zX.text" = "+0";
+
+/* Class = "UIButton"; normalTitle = "Knowledge QA(art)"; ObjectID = "BgC-Gg-WdP"; */
+"BgC-Gg-WdP.normalTitle" = "Knowledge QA(art)";
+
+/* Class = "UILabel"; text = "对方已经添加你为好友"; ObjectID = "DFF-FO-5S9"; */
+"DFF-FO-5S9.text" = "对方已经添加你为好友";
+
+/* Class = "UILabel"; text = "单马尾小姐，你到哪里啦?我去接 你。"; ObjectID = "HuL-bI-Khv"; */
+"HuL-bI-Khv.text" = "单马尾小姐，你到哪里啦?我去接 你。";
+
+/* Class = "UIButton"; normalTitle = "Knowledge QA(military)"; ObjectID = "Jkl-Qa-HCl"; */
+"Jkl-Qa-HCl.normalTitle" = "Knowledge QA(military)";
+
+/* Class = "UILabel"; text = "《LinMao YourBoyfriend》"; ObjectID = "MoG-dY-qM4"; */
+"MoG-dY-qM4.text" = "《LinMao YourBoyfriend》";
+
+/* Class = "UILabel"; text = "0%"; ObjectID = "MpG-A2-hkL"; */
+"MpG-A2-hkL.text" = "0%";
+
+/* Class = "UILabel"; text = "正在加载剧本,请稍候..."; ObjectID = "Mw5-uf-tHm"; */
+"Mw5-uf-tHm.text" = "正在加载剧本,请稍候...";
+
+/* Class = "UIButton"; normalTitle = "Game"; ObjectID = "OM7-gO-bNn"; */
+"OM7-gO-bNn.normalTitle" = "Chat";
+
+/* Class = "UILabel"; text = "UI/UX: Saige"; ObjectID = "Oq0-wM-TLk"; */
+"Oq0-wM-TLk.text" = "UI/UX: Saige";
+
+/* Class = "UILabel"; text = "Illustrations: 菊花花仙子"; ObjectID = "VmF-hq-dEq"; */
+"VmF-hq-dEq.text" = "Illustrations: 菊花花仙子";
+
+/* Class = "UIButton"; normalTitle = "New game"; ObjectID = "VsC-09-tG3"; */
+"VsC-09-tG3.normalTitle" = "New game";
+
+/* Class = "UIButton"; normalTitle = "          "; ObjectID = "Wna-YB-Sqq"; */
+"Wna-YB-Sqq.normalTitle" = "          ";
+
+/* Class = "UILabel"; text = "Level of love interest"; ObjectID = "XNM-tk-JRC"; */
+"XNM-tk-JRC.text" = "Level of love interest";
+
+/* Class = "UILabel"; text = " "; ObjectID = "Xzl-YO-ZTT"; */
+"Xzl-YO-ZTT.text" = " ";
+
+/* Class = "UILabel"; text = "Saige Games"; ObjectID = "b6S-Sj-q6e"; */
+"b6S-Sj-q6e.text" = "Saige Games";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "cYG-qF-SIH"; */
+"cYG-qF-SIH.normalTitle" = "Next";
+
+/* Class = "UILabel"; text = "Script: Saige"; ObjectID = "dKw-IG-xVY"; */
+"dKw-IG-xVY.text" = "Script: Saige";
+
+/* Class = "UILabel"; text = "Saige Game studio"; ObjectID = "dhN-Ie-pKT"; */
+"dhN-Ie-pKT.text" = "Saige Game studio";
+
+/* Class = "UILabel"; text = "Game Setting"; ObjectID = "f6K-oE-rEZ"; */
+"f6K-oE-rEZ.text" = "Game Setting";
+
+/* Class = "UILabel"; text = "Questions"; ObjectID = "fgW-9M-MW3"; */
+"fgW-9M-MW3.text" = "Questions";
+
+/* Class = "UIButton"; normalTitle = "Knowledge QA(programme)"; ObjectID = "gkP-6o-qvz"; */
+"gkP-6o-qvz.normalTitle" = "Knowledge QA(programme)";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "hoZ-lt-grD"; */
+"hoZ-lt-grD.text" = "Label";
+
+/* Class = "UILabel"; text = "About us"; ObjectID = "ijs-P1-aYN"; */
+"ijs-P1-aYN.text" = "About us";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "j4p-OA-g4i"; */
+"j4p-OA-g4i.text" = "Label";
+
+/* Class = "UILabel"; text = "单马尾小姐，你到哪里啦?我去接 你。"; ObjectID = "mHH-MP-SO6"; */
+"mHH-MP-SO6.text" = "单马尾小姐，你到哪里啦?我去接 你。";
+
+/* Class = "UIButton"; normalTitle = "Questions"; ObjectID = "n1f-9w-qjj"; */
+"n1f-9w-qjj.normalTitle" = "Questions";
+
+/* Class = "UILabel"; text = "LinMao"; ObjectID = "nIe-qg-aQD"; */
+"nIe-qg-aQD.text" = "LinMao";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "noZ-d6-MXX"; */
+"noZ-d6-MXX.text" = "Label";
+
+/* Class = "UILabel"; text = "Questions"; ObjectID = "oD7-Xl-w8w"; */
+"oD7-Xl-w8w.text" = "Questions";
+
+/* Class = "UITabBarItem"; title = "聊天"; ObjectID = "r1p-j7-cbx"; */
+"r1p-j7-cbx.title" = "聊天";
+
+/* Class = "UILabel"; text = "好感度:"; ObjectID = "r75-Yg-LSl"; */
+"r75-Yg-LSl.text" = "好感度:";
+
+/* Class = "UITextView"; text = "我的初中同学，初中的时候戴着厚厚的眼镜看不到脸，长大后会打扮了眼镜也换了，一跃变成了一名黑框美少年。\n\n爱好：美食，电脑，IT，看星星，技术研究，打游戏。\n\n职业：现就职于Goose科技公司，技术开发专员。\n\n性格：温柔体贴，热情可靠，善良讲义气人缘好。犬系男友，粘人忠厚。\n"; ObjectID = "rj7-ke-1RB"; */
+"rj7-ke-1RB.text" = "我的初中同学，初中的时候戴着厚厚的眼镜看不到脸，长大后会打扮了眼镜也换了，一跃变成了一名黑框美少年。\n\n爱好：美食，电脑，IT，看星星，技术研究，打游戏。\n\n职业：现就职于Goose科技公司，技术开发专员。\n\n性格：温柔体贴，热情可靠，善良讲义气人缘好。犬系男友，粘人忠厚。\n";
+
+/* Class = "UILabel"; text = "Start Game"; ObjectID = "tOq-Nn-msz"; Note = "startGame"; */
+"tOq-Nn-msz.text" = "Start Game";
+
+/* Class = "UILabel"; text = "Music: 魔王魂"; ObjectID = "tWg-zz-E73"; */
+"tWg-zz-E73.text" = "Music: 魔王魂";
+
+/* Class = "UILabel"; text = "roducer: Saige"; ObjectID = "wDv-wu-RHs"; */
+"wDv-wu-RHs.text" = "roducer: Saige";
+
+/* Class = "UILabel"; text = "Script: 笨狐狸"; ObjectID = "xai-Ez-lSX"; */
+"xai-Ez-lSX.text" = "Script: 笨狐狸";
+
+/* Class = "UILabel"; text = "Programmer: 吉普"; ObjectID = "ydF-KH-OTB"; */
+"ydF-KH-OTB.text" = "Programmer: 吉普";
