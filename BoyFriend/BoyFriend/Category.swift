@@ -2,7 +2,7 @@
 //  String+Category.swift
 //  BoyFriend
 //
-//  Created by 谢冠章 on 2018/10/13.
+//  Created by 谢馆长 on 2018/10/13.
 //  Copyright © 2018年 谢馆长. All rights reserved.
 //
 

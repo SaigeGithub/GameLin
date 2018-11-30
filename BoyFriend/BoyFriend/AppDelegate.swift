@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  BoyFriend
 //
-//  Created by 谢冠章 on 2018/10/11.
+//  Created by 谢馆长 on 2018/10/11.
 //  Copyright © 2018年 谢馆长. All rights reserved.
 //
 
