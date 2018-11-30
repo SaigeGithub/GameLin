@@ -2,7 +2,7 @@
 //  FirstHomeViewController.swift
 //  BoyFriend
 //
-//  Created by 谢冠章 on 2018/11/15.
+//  Created by 谢馆长 on 2018/11/15.
 //  Copyright © 2018 谢馆长. All rights reserved.
 //
 

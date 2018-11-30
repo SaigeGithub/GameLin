@@ -2,7 +2,7 @@
 //  ChatViewController.swift
 //  BoyFriend
 //
-//  Created by 谢冠章 on 2018/10/11.
+//  Created by 谢馆长 on 2018/10/11.
 //  Copyright © 2018年 谢馆长. All rights reserved.
 //
 
@@ -20,7 +20,7 @@ class ChatViewController: UIViewController {
     
     var script = story.chineseScript
     var answers = [answer]()
-//    let storyBook = story.converJsonToModel()
+    //    let storyBook = story.converJsonToModel()
     //是否加速,点击广告加速
     var sleepTime:TimeInterval = 0
     //正在输入标记
@@ -52,7 +52,7 @@ class ChatViewController: UIViewController {
         if player?.isPlaying == true{
             player?.stop()
         }
-
+        
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
@@ -63,21 +63,21 @@ class ChatViewController: UIViewController {
             player?.play()
         }
         
-
+        
     }
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         //滚动到底部
         scrollToEnd()
     }
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         playBGM()
         
         //收到消息
         NotificationCenter.default.addObserver(self, selector: #selector(didReceiveMessage(notification:)), name: NSNotification.Name(rawValue: "receiveMessage"), object: nil)
-
+        
         
         //选择剧本
         if let lan = UserDefaults.standard.object(forKey: "language"){
@@ -96,9 +96,9 @@ class ChatViewController: UIViewController {
         self.tableView.reloadData()
         self.isTyping = false
         
-       
         
-
+        
+        
         
         //点击关闭答案
         let tap = UITapGestureRecognizer(target: self, action: #selector(dismissAnswer))
@@ -106,7 +106,7 @@ class ChatViewController: UIViewController {
         
         GADRewardBasedVideoAd.sharedInstance().delegate = self
         GADRewardBasedVideoAd.sharedInstance().load(GADRequest(),withAdUnitID: admobAdUnitId)
-
+        
     }
     
     //加快回复速度
@@ -188,7 +188,7 @@ class ChatViewController: UIViewController {
     }
     //收到消息
     @objc func didReceiveMessage(notification:Notification){
-
+        
         
         if let notificationObj =  notification.userInfo {
             let conversations = CoreDataManager.shared.getConversationWith(messageId: notificationObj["msgId"] as! String)
@@ -217,7 +217,7 @@ class ChatViewController: UIViewController {
         }
         
     }
-
+    
     //好感度
     @IBAction func liakbilityBtnClicked(_ sender: Any) {
         let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "InfomationViewController")
@@ -235,7 +235,20 @@ class ChatViewController: UIViewController {
     @IBAction func backHomeVC(_ sender: Any) {
         navigationController?.popViewController(animated: true)
     }
-    
+    //显示图片
+    func showImage(imageName:String){
+        // 打开浏览器
+        // 1. create SKPhoto Array from UIImage
+        var images = [SKPhoto]()
+        let photo = SKPhoto.photoWithImage(UIImage(named: imageName)!)
+        images.append(photo)
+        
+        // 2. create PhotoBrowser Instance, and present from your viewController.
+        let browser = SKPhotoBrowser(photos: images)
+        browser.delegate = self
+        browser.initializePageIndex(0)
+        present(browser, animated: true, completion: nil)
+    }
     //选择答案
     @IBAction func selectAnswer(_ sender: Any) {
         if let record = CoreDataManager.shared.getLastGameRecord(){
@@ -276,42 +289,42 @@ class ChatViewController: UIViewController {
                                 height += 50
                             }
                         }else{
-                          height += 50
+                            height += 50
                         }
                     }
                     if girlMsgs.count > 0{
-//                        修改输入框高度
+                        //                        修改输入框高度
                         inputTableView.layoutIfNeeded()
                         UIView.animate(withDuration: 0.8) {
                             self.inputTableViewHeight.constant = height
                         }
                         
                         
-//                        调整tableView偏移量
-//                        tableView.contentInset = UIEdgeInsetsMake(-height, 0, height, 0)
+                        //                        调整tableView偏移量
+                        //                        tableView.contentInset = UIEdgeInsetsMake(-height, 0, height, 0)
                         if datasource.count > 0{
                             tableView.scrollToRow(at: IndexPath(row: datasource.count - 1, section: 0), at: .bottom, animated: true)
                         }
                         
                         
                         
-
+                        
                     }
                 }
             }
             
         }
     }
-
+    
     //b关闭答案列表
-   @objc func dismissAnswer() {
+    @objc func dismissAnswer() {
         answers.removeAll()
         inputTableView.reloadData()
-    inputTableView.layoutIfNeeded()
-    UIView.animate(withDuration: 0.8) {
-        self.inputTableViewHeight.constant = 55
-    }
-    
+        inputTableView.layoutIfNeeded()
+        UIView.animate(withDuration: 0.8) {
+            self.inputTableViewHeight.constant = 55
+        }
+        
     }
     //滚动到底部
     func scrollToEnd(){
@@ -325,7 +338,7 @@ class ChatViewController: UIViewController {
                 }else{
                     self.tableView.scrollToRow(at: IndexPath(row: self.datasource.count-1, section: 0), at: .top, animated: false)
                 }
-               
+                
             }
             
         }
@@ -373,10 +386,13 @@ extension ChatViewController:UITableViewDelegate,UITableViewDataSource{
                         if let photoName = model.content{
                             let image = UIImage(named: photoName)
                             cell.photoView.image = image
-                            
+                            cell.imageName = photoName
                             let heightScale = image!.size.height/image!.size.width
                             cell.photoWidth.constant = 100 * heightScale
                             cell.photoHeight.constant = 100 * heightScale
+                            cell.tapImage = { [weak self] name in
+                                self?.showImage(imageName: name)
+                            }
                             
                         }
                         
@@ -394,18 +410,8 @@ extension ChatViewController:UITableViewDelegate,UITableViewDataSource{
                         if let photoName = model.content{
                             let image = UIImage(named: photoName)
                             cell.imageName  = photoName
-                            cell.tapImage = { name in
-                                // 打开浏览器
-                                // 1. create SKPhoto Array from UIImage
-                                var images = [SKPhoto]()
-                                let photo = SKPhoto.photoWithImage(UIImage(named: name)!)
-                                images.append(photo)
-                                
-                                // 2. create PhotoBrowser Instance, and present from your viewController.
-                                let browser = SKPhotoBrowser(photos: images)
-                                browser.delegate = self
-                                browser.initializePageIndex(0)
-                                self.present(browser, animated: true, completion: nil)
+                            cell.tapImage = { [weak self] name in
+                                self?.showImage(imageName: name)
                             }
                             let heightScale = image!.size.height/image!.size.width
                             var width = 100 * heightScale
@@ -433,7 +439,7 @@ extension ChatViewController:UITableViewDelegate,UITableViewDataSource{
                         }else{
                             cell.bubleViewWidth.constant = CGFloat(width)+20
                         }
-                        cell.messageLabel.setLabelSpace(font: UIFont.systemFont(ofSize: 12), str: model.content!,lineSpace: 6)
+                        cell.messageLabel.setLabelSpace(font: UIFont.systemFont(ofSize: 12), str: model.content!,lineSpace: 5)
                     }
                     
                     
@@ -502,7 +508,7 @@ extension ChatViewController:UITableViewDelegate,UITableViewDataSource{
             return 100
         }
         
-
+        
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
@@ -529,7 +535,7 @@ extension ChatViewController:UITableViewDelegate,UITableViewDataSource{
                 if script!.questions!.count <= Int(progress){
                     return
                 }
-//                let story = fullStory![Int(progress)]
+                //                let story = fullStory![Int(progress)]
                 if let message = message.message{
                     NotificationHelp.shared.sendMyMessage( title: girlName!, msg: message, time: 0.1)
                 }else if let image = message.image{
@@ -584,7 +590,7 @@ extension ChatViewController:UITableViewDelegate,UITableViewDataSource{
                                                     NotificationHelp.shared.sendYouImage( title: boyName!, msg: image, time: time)
                                                 }else if let message = msg.message{
                                                     time += NotificationHelp.shared.inputSpeed(count: message.count)
-                                                   NotificationHelp.shared.sendYouMessage(title: boyName!, msg: message, time:time)
+                                                    NotificationHelp.shared.sendYouMessage(title: boyName!, msg: message, time:time)
                                                 }
                                                 
                                                 
@@ -652,12 +658,12 @@ extension ChatViewController:UITableViewDelegate,UITableViewDataSource{
                             
                         }
                         if let _ = story.end{
-                             break
+                            break
                         }
                         if story.messageType == 2 {
                             break
                         }
-
+                        
                         
                     }
                 }
@@ -817,8 +823,8 @@ extension ChatViewController:UITableViewDelegate,UITableViewDataSource{
             
         }
     }
-
-
+    
+    
 }
 
 
@@ -874,11 +880,11 @@ extension ChatViewController:GADRewardBasedVideoAdDelegate{
         
     }
     
-
+    
     //关闭了广告
     func rewardBasedVideoAdDidClose(_ rewardBasedVideoAd: GADRewardBasedVideoAd) {
         
-//        player?.play()
+        //        player?.play()
         //加载下一个广告
         GADRewardBasedVideoAd.sharedInstance().load(GADRequest(),
                                                     withAdUnitID: admobAdUnitId)
@@ -921,5 +927,6 @@ func setNewOrientation(fullScreen:Bool){
         UIDevice.current.setValue(orientationTarget, forKey: "orientation")
     }
 }
+
 
 

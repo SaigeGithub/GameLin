@@ -2,7 +2,7 @@
 //  GameProcess+CoreDataProperties.swift
 //  
 //
-//  Created by 谢冠章 on 2018/10/24.
+//  Created by 谢馆长 on 2018/10/24.
 //
 //
 

@@ -2,7 +2,7 @@
 //  Conversation+CoreDataProperties.swift
 //  
 //
-//  Created by 谢冠章 on 2018/10/26.
+//  Created by 谢馆长 on 2018/10/26.
 //
 //
 
